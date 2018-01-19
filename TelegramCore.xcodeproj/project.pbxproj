@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B37A7645201202BB00C4F30F /* Postbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37A7642201202BA00C4F30F /* Postbox.framework */; };
+		B37A7646201202BB00C4F30F /* MtProtoKitDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37A7643201202BB00C4F30F /* MtProtoKitDynamic.framework */; };
+		B37A7647201202BB00C4F30F /* SwiftSignalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37A7644201202BB00C4F30F /* SwiftSignalKit.framework */; };
+		B37A764B201202CB00C4F30F /* SwiftSignalKitMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37A7648201202CB00C4F30F /* SwiftSignalKitMac.framework */; };
+		B37A764C201202CB00C4F30F /* PostboxMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37A7649201202CB00C4F30F /* PostboxMac.framework */; };
+		B37A764D201202CB00C4F30F /* MtProtoKitMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37A764A201202CB00C4F30F /* MtProtoKitMac.framework */; };
 		C205FEA81EB3B75900455808 /* ExportMessageLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C205FEA71EB3B75900455808 /* ExportMessageLink.swift */; };
 		C205FEA91EB3B75900455808 /* ExportMessageLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C205FEA71EB3B75900455808 /* ExportMessageLink.swift */; };
 		C210DD621FBDB90800F673D8 /* SourceReferenceMessageAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C210DD611FBDB90800F673D8 /* SourceReferenceMessageAttribute.swift */; };
@@ -318,8 +324,6 @@
 		D0613FD81E606B3B00202CDB /* ConvertGroupToSupergroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0613FD61E606B3B00202CDB /* ConvertGroupToSupergroup.swift */; };
 		D0642EF91F3E05D700792790 /* EarliestUnseenPersonalMentionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0642EF81F3E05D700792790 /* EarliestUnseenPersonalMentionMessage.swift */; };
 		D0642EFA1F3E05D700792790 /* EarliestUnseenPersonalMentionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0642EF81F3E05D700792790 /* EarliestUnseenPersonalMentionMessage.swift */; };
-		D067066C1D512ADB00DED3E3 /* Postbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06706671D512ADB00DED3E3 /* Postbox.framework */; };
-		D067066D1D512ADB00DED3E3 /* SwiftSignalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06706681D512ADB00DED3E3 /* SwiftSignalKit.framework */; };
 		D07047B41F3DF1FE00F6A8D4 /* ConsumablePersonalMentionMessageAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07047B31F3DF1FE00F6A8D4 /* ConsumablePersonalMentionMessageAttribute.swift */; };
 		D07047B51F3DF1FE00F6A8D4 /* ConsumablePersonalMentionMessageAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07047B31F3DF1FE00F6A8D4 /* ConsumablePersonalMentionMessageAttribute.swift */; };
 		D07047B71F3DF2CD00F6A8D4 /* ManagedConsumePersonalMessagesActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07047B61F3DF2CD00F6A8D4 /* ManagedConsumePersonalMessagesActions.swift */; };
@@ -394,9 +398,6 @@
 		D0B167241F9F972E00976B40 /* LoggingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B167221F9F972E00976B40 /* LoggingSettings.swift */; };
 		D0B417C11D7DCEEF004562A4 /* ApiGroupOrChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B417C01D7DCEEF004562A4 /* ApiGroupOrChannel.swift */; };
 		D0B4186B1D7E03D5004562A4 /* TelegramCoreMac.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B418691D7E03D5004562A4 /* TelegramCoreMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0B418721D7E0409004562A4 /* PostboxMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B418701D7E0409004562A4 /* PostboxMac.framework */; };
-		D0B418731D7E0409004562A4 /* SwiftSignalKitMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B418711D7E0409004562A4 /* SwiftSignalKitMac.framework */; };
-		D0B4187F1D7E054E004562A4 /* MtProtoKitMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B4187E1D7E054E004562A4 /* MtProtoKitMac.framework */; };
 		D0B418861D7E056D004562A4 /* Namespaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B0CD21D62244300955575 /* Namespaces.swift */; };
 		D0B4188E1D7E0578004562A4 /* StoreMessage_Telegram.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B0CDF1D62249100955575 /* StoreMessage_Telegram.swift */; };
 		D0B418941D7E0580004562A4 /* TelegramMediaAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B0CEC1D62250800955575 /* TelegramMediaAction.swift */; };
@@ -521,7 +522,6 @@
 		D0C48F3D1E8142EF0075317D /* LoadedPeerFromMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C48F3B1E8142EF0075317D /* LoadedPeerFromMessage.swift */; };
 		D0C50E341E93A86600F62E39 /* CallSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C50E331E93A86600F62E39 /* CallSessionManager.swift */; };
 		D0C50E351E93A86600F62E39 /* CallSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C50E331E93A86600F62E39 /* CallSessionManager.swift */; };
-		D0CAF2EA1D75EC600011F558 /* MtProtoKitDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CAF2E91D75EC600011F558 /* MtProtoKitDynamic.framework */; };
 		D0D748021E7AE98B00F4B1F6 /* StickerPackInteractiveOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D748011E7AE98B00F4B1F6 /* StickerPackInteractiveOperations.swift */; };
 		D0D748031E7AE98B00F4B1F6 /* StickerPackInteractiveOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D748011E7AE98B00F4B1F6 /* StickerPackInteractiveOperations.swift */; };
 		D0DA1D321F7043D50034E892 /* ManagedPendingPeerNotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA1D311F7043D50034E892 /* ManagedPendingPeerNotificationSettings.swift */; };
@@ -624,6 +624,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B37A7642201202BA00C4F30F /* Postbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Postbox.framework; path = Carthage/Build/iOS/Postbox.framework; sourceTree = "<group>"; };
+		B37A7643201202BB00C4F30F /* MtProtoKitDynamic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MtProtoKitDynamic.framework; path = Carthage/Build/iOS/MtProtoKitDynamic.framework; sourceTree = "<group>"; };
+		B37A7644201202BB00C4F30F /* SwiftSignalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSignalKit.framework; path = Carthage/Build/iOS/SwiftSignalKit.framework; sourceTree = "<group>"; };
+		B37A7648201202CB00C4F30F /* SwiftSignalKitMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSignalKitMac.framework; path = Carthage/Build/Mac/SwiftSignalKitMac.framework; sourceTree = "<group>"; };
+		B37A7649201202CB00C4F30F /* PostboxMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PostboxMac.framework; path = Carthage/Build/Mac/PostboxMac.framework; sourceTree = "<group>"; };
+		B37A764A201202CB00C4F30F /* MtProtoKitMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MtProtoKitMac.framework; path = Carthage/Build/Mac/MtProtoKitMac.framework; sourceTree = "<group>"; };
 		C205FEA71EB3B75900455808 /* ExportMessageLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportMessageLink.swift; sourceTree = "<group>"; };
 		C210DD611FBDB90800F673D8 /* SourceReferenceMessageAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceReferenceMessageAttribute.swift; sourceTree = "<group>"; };
 		C22EE61A1E67418000334C38 /* ToggleChannelSignatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleChannelSignatures.swift; sourceTree = "<group>"; };
@@ -961,9 +967,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0AF32381FAE8C920097362B /* MultipeerConnectivity.framework in Frameworks */,
-				D0CAF2EA1D75EC600011F558 /* MtProtoKitDynamic.framework in Frameworks */,
-				D067066C1D512ADB00DED3E3 /* Postbox.framework in Frameworks */,
-				D067066D1D512ADB00DED3E3 /* SwiftSignalKit.framework in Frameworks */,
+				B37A7645201202BB00C4F30F /* Postbox.framework in Frameworks */,
+				B37A7646201202BB00C4F30F /* MtProtoKitDynamic.framework in Frameworks */,
+				B37A7647201202BB00C4F30F /* SwiftSignalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -979,9 +985,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B4187F1D7E054E004562A4 /* MtProtoKitMac.framework in Frameworks */,
-				D0B418721D7E0409004562A4 /* PostboxMac.framework in Frameworks */,
-				D0B418731D7E0409004562A4 /* SwiftSignalKitMac.framework in Frameworks */,
+				B37A764B201202CB00C4F30F /* SwiftSignalKitMac.framework in Frameworks */,
+				B37A764C201202CB00C4F30F /* PostboxMac.framework in Frameworks */,
+				B37A764D201202CB00C4F30F /* MtProtoKitMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1388,6 +1394,12 @@
 		D06706631D512ADA00DED3E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B37A764A201202CB00C4F30F /* MtProtoKitMac.framework */,
+				B37A7649201202CB00C4F30F /* PostboxMac.framework */,
+				B37A7648201202CB00C4F30F /* SwiftSignalKitMac.framework */,
+				B37A7643201202BB00C4F30F /* MtProtoKitDynamic.framework */,
+				B37A7642201202BA00C4F30F /* Postbox.framework */,
+				B37A7644201202BB00C4F30F /* SwiftSignalKit.framework */,
 				D0AF32371FAE8C910097362B /* MultipeerConnectivity.framework */,
 				D0B4187E1D7E054E004562A4 /* MtProtoKitMac.framework */,
 				D0B418701D7E0409004562A4 /* PostboxMac.framework */,
@@ -2439,6 +2451,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TelegramCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2485,6 +2501,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = TelegramCoreMac/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2561,6 +2581,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TelegramCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2654,6 +2678,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TelegramCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2700,6 +2728,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = TelegramCoreMac/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2828,6 +2860,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TelegramCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2865,6 +2901,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = TelegramCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2924,6 +2964,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = TelegramCoreMac/Info.plist;
@@ -2956,6 +3000,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = TelegramCoreMac/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2986,6 +3034,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = TelegramCoreMac/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
